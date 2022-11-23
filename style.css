@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+header{
+    background-color: antiquewhite;
+}
+
+h1{
+    font-size: 300%;
+}
+
+.box{
+    border: 1px #000000 solid;
+    padding: 1%;
+    margin: 1%;
+}
+container{
+    height: 750px;
+    flex: 1 1 100%;
+    background-color: aquamarine;
+}
+
+aside{
+    width: 20%;
+    height: auto;
+flex-direction: column;
+}
+main{
+    width: 80%;
+}
+
+
+
+.flex{
+    display: flex;
+}
+
+
+
+#search{
+    height: 25px;
+    width: 80%;
+}
+
+#saved{
+    height: 70%;
+}
